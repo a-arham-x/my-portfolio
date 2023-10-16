@@ -31,6 +31,7 @@ nav {
     display: flex;
     justify-content: center;
     margin: 40px;
+    animation: movenav 1s linear;
 }
 
 nav>ul {
@@ -90,6 +91,10 @@ a:active {
     width: 300px;
     border-radius: 300px;
     border: 2px solid white;
+}
+
+.top{
+    animation: render 1s linear;
 }
 
 .box {
@@ -253,6 +258,24 @@ footer>a>img {
     height: 30px;
 }
 
+/* Animations */
+@keyframes movenav {
+    from{
+        margin-top:100px;
+    }to{
+        margin-top: 40px;
+    }
+}
+
+@keyframes render {
+    from{
+        margin-top: -20px;
+    }to{
+        margin-top: 0px;
+    }
+}
+
+/* Media queires */
 @media screen and (max-width: 840px){
     .project{
         width: 600px;
