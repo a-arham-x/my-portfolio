@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 h1 {
@@ -248,14 +249,16 @@ h3 {
 footer {
     display: flex;
     justify-content: center;
-    background-color: gray;
     margin-top: 100px;
     width: 100%;
+    align-items: center;
 }
 
-footer>a>img {
+footer img {
     margin: 8px;
     height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
 }
 
 /* Animations */
