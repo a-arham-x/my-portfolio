@@ -36,14 +36,14 @@ function Projects() {
                     </div>
                 </li>
                 <li>
-                    <h3>Notesbase</h3>
+                    <h3>Our Own Notes</h3>
                     <div class="project">
                         <div class="projects-img">
                             <img src={require("./images/nb-pic1.png")} alt="Project Screenshot" />
                             <img src={require("./images/nb-pic2.png")} alt="Project Screenshot" />
                             <img src={require("./images/nb-pic3.png")} alt="Project Screenshot" />
                         </div>
-                        <p>Notesbase is a PERN Stack application which means that it has a PostgreSQL database in
+                        <p>Our Own Notes is a PERN Stack application which means that it has a PostgreSQL database in
                             place of MongoDB as in MERN stack applications. The application allows its users to create
                             notes, view, edit or delete them. The user has to first signup and login into the
                             application. The user can also update their account information or delete their account. The
