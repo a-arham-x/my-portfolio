@@ -53,6 +53,27 @@ function Projects() {
                     </div>
                 </li>
                 <li>
+                    <h3>Event Manager</h3>
+                    <div class="project">
+                        <div class="projects-img">
+                            <a href="https://event-manager-web.vercel.app/" target="_blank"><img
+                                    src={require("./images/em-pic1.png")} alt="Project Screenshot" /></a>
+                            <a href="https://event-manager-web.vercel.app/" target="_blank"><img
+                                    src={require("./images/em-pic2.png")} alt="Project Screenshot" /></a>
+                            <a href="https://event-manager-web.vercel.app/" target="_blank"><img
+                                    src={require("./images/em-pic3.png")} alt="Project Screenshot" /></a>
+                        </div>
+                        <p>A Node.js Application that is built for users to store, maange and plan their events. The application
+                            allows the users to check each others events which can help them plan accordingly as well as plan to
+                            attend a certain event. The application comes with a weather api integration that tells the users
+                            about the weather of a specific place on a specific date, so they could decide if that time and place
+                            is suitable for arranging any event or not.
+                        </p>
+                        <div class="github-link"><a href="https://github.com/a-arham-x/event-manager"
+                                target="_blank">GITHUB</a></div>
+                    </div>
+                </li>
+                <li>
                     <h3>Train Reservation System</h3>
                     <div class="project">
                         <div class="projects-img">
