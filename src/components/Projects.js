@@ -153,6 +153,56 @@ function Projects() {
               </div>
             </li>
             <li>
+              <h3>Finance Buddy(Expense Tracking App)</h3>
+              <div class="project">
+                <div class="projects-img">
+                  <a
+                    href="https://finance-buddy-hazel.vercel.app/"
+                    target="_blank"
+                  >
+                    <img
+                      src={require("./images/et-pic1.png")}
+                      alt="Project Screenshot"
+                    />
+                  </a>
+                  <a
+                    href="https://finance-buddy-hazel.vercel.app/"
+                    target="_blank"
+                  >
+                    <img
+                      src={require("./images/et-pic2.png")}
+                      alt="Project Screenshot"
+                    />
+                  </a>
+                  <a
+                    href="https://finance-buddy-hazel.vercel.app/"
+                    target="_blank"
+                  >
+                    <img
+                      src={require("./images/et-pic3.png")}
+                      alt="Project Screenshot"
+                    />
+                  </a>
+                </div>
+                <p>
+                  A Next.js expense tracking application that leverages its
+                  users to keep a track of their monthly expenses and provides
+                  them with an annual report. I have made use of Nextjs for
+                  developing the application frontend and Next.js api for
+                  developing the backend. I have made use of Prisma ORM for the
+                  easy management of data in the application
+                </p>
+                <div class="github-link">
+                  <a
+                    href="https://github.com/a-arham-x/nextjs-expense-tracker"
+                    target="_blank"
+                  >
+                    GITHUB
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
               <h3>Photo Editor Web App</h3>
               <div class="project">
                 <div class="projects-img">
