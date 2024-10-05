@@ -206,18 +206,33 @@ function Projects() {
               <h3>Photo Editor Web App</h3>
               <div class="project">
                 <div class="projects-img">
-                  <img
-                    src={require("./images/pea-pic1.png")}
-                    alt="Project Screenshot"
-                  />
-                  <img
-                    src={require("./images/pea-pic2.png")}
-                    alt="Project Screenshot"
-                  />
-                  <img
-                    src={require("./images/pea-pic3.png")}
-                    alt="Project Screenshot"
-                  />
+                  <a
+                    href="https://photo-editor-ashy.vercel.app/"
+                    target="_blank"
+                  >
+                    <img
+                      src={require("./images/pea-pic1.png")}
+                      alt="Project Screenshot"
+                    />
+                  </a>
+                  <a
+                    href="https://photo-editor-ashy.vercel.app/"
+                    target="_blank"
+                  >
+                    <img
+                      src={require("./images/pea-pic2.png")}
+                      alt="Project Screenshot"
+                    />
+                  </a>
+                  <a
+                    href="https://photo-editor-ashy.vercel.app/"
+                    target="_blank"
+                  >
+                    <img
+                      src={require("./images/pea-pic3.png")}
+                      alt="Project Screenshot"
+                    />
+                  </a>
                 </div>
                 <p>
                   A Next.js photo editor application that comes with variety of
