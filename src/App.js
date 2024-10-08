@@ -18,8 +18,6 @@ function App() {
       <Navbar />
       <TechStack />
       <AboutMe />
-      <Education />
-      <Experience />
       <Skills />
       <Projects />
       <Hobbies />
