@@ -68,18 +68,24 @@ function Projects() {
               <h3>Our Own Notes</h3>
               <div class="project">
                 <div class="projects-img">
-                  <img
-                    src={require("./images/nb-pic1.png")}
-                    alt="Project Screenshot"
-                  />
-                  <img
-                    src={require("./images/nb-pic2.png")}
-                    alt="Project Screenshot"
-                  />
-                  <img
-                    src={require("./images/nb-pic3.png")}
-                    alt="Project Screenshot"
-                  />
+                  <a href="https://our-own-notes.vercel.app/" target="_blank">
+                    <img
+                      src={require("./images/nb-pic1.png")}
+                      alt="Project Screenshot"
+                    />
+                  </a>
+                  <a href="https://our-own-notes.vercel.app/" target="_blank">
+                    <img
+                      src={require("./images/nb-pic2.png")}
+                      alt="Project Screenshot"
+                    />
+                  </a>
+                  <a href="https://our-own-notes.vercel.app/" target="_blank">
+                    <img
+                      src={require("./images/nb-pic3.png")}
+                      alt="Project Screenshot"
+                    />
+                  </a>
                 </div>
                 <p>
                   Our Own Notes is a PERN Stack application which means that it
